@@ -1,0 +1,102 @@
+/*ENTETE*/
+#zozor, #titre_principal
+{
+	display:inline-block;
+	vertical-align: baseline;
+}
+header img
+{
+	border: 5px solid white;
+	border-radius:4px;
+	box-shadow:1px 1px 3px grey;
+}
+header h1
+{
+    font-family: 'Pacifico', cursive;
+    font-size: 5em;
+	font-weight: normal;
+	margin-bottom: 0px;
+	padding-left: 20px;
+}
+header h2
+{
+	color: #03638b;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.5em;
+	font-weight: normal;
+	padding-left: 20px;
+	margin-top: 0px;
+	text-align: top;
+}
+/*BODY*/
+
+body
+{
+    background: url('images/background.png');
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #002d40;
+}
+
+#bloc_page
+{
+    width: 900px;
+    margin: auto;
+}
+
+section h2
+{
+    font-family: 'Pacifico', cursive;
+    font-size: 2em;
+	font-weight: normal;
+}
+#liens_externes 
+{
+	border-top: 1px;
+	border-bottom: 1px;
+	border-left:0px;
+	border-right:0px;
+	border-color: black;
+	border-style: solid;
+
+}
+#liens_externes li
+{
+	display:inline-block;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+#liens_externes img
+{
+	padding-right: 7px;
+}
+a
+{
+	text-decoration:none;
+	color:#002d40;
+}
+/*Compétences*/
+.icone li 
+{
+	display: inline-block;
+	width: 200px;
+	text-align: left;
+	color:#002d40;
+	font-weight: bold;
+	margin-top: 0px;
+	/*padding-right: 100px;*/
+}
+.metier 
+{
+	font-weight: bold;
+}
+section h3,#simple_it
+{
+	font-weight: normal;
+	display: inline-block;
+	vertical-align: top;
+}
+
+aside
+{
+	vertical-align: top;
+}
